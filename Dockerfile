@@ -17,7 +17,7 @@ ENV RunInDocker=true
 ENV PORT=9000
 
 LABEL maintainer="Biswajit Das <billionto@gmail.com>, Mohan Mal <mohanmal553@gmail.com>"
-LABEL org.opencontainers.image.version="0.0.1-alpha"
+LABEL org.opencontainers.image.version="0.0.2-alpha"
 LABEL org.opencontainers.image.licenses="MIT"
 LABEL org.opencontainers.image.source=https://github.com/BiltuDas1/search-core
 LABEL org.opencontainers.image.documentation=https://github.com/BiltuDas1/search-core/wiki

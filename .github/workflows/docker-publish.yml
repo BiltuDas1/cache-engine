@@ -23,6 +23,9 @@ jobs:
       - name: Collecting information from version file
         run: bash .github/scripts/getversion.sh
 
+      - name: Updating the submodules
+        run: bash .github/scripts/submodule.sh
+
       - name: Set up QEMU
         uses: docker/setup-qemu-action@master
 
